@@ -1,5 +1,6 @@
 * {
   font-family: 'Poppins';
+  box-sizing: border-box;
   font-style: normal;
   font-weight: 500;
   margin: 0;
@@ -7,29 +8,26 @@
 .landing-app {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  padding: 3.5rem 0;
 }
 .landing-title {
   font-family: 'Macondo Swash Caps';
   font-style: normal;
   font-weight: 400;
-  font-size: 11.25rem;
+  margin-bottom: 3.5rem;
+  font-size: 12.5rem;
   line-height: 1.18em;
-  display: flex;
-  align-items: center;
-  padding: 0.556em 0.556em ;
+  /* padding: 0.556em 0.556em ; */
 
   color: #000000;
 }
 .landing-desc {
   width: 70%;
-  font-size: 1.41rem;
+  font-size: 1.2rem;
   line-height: 1.5em;
-  display: flex;
-  align-items: center;
   text-align: center;
-
   color: #000000;
   padding-bottom: 3.333em;
 }
@@ -38,22 +36,24 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 472.5px;
+  width: 400px;
   height: 75px;
-  background: #92E3A9;
+  background: #92e3a9;
   border-radius: 20px;
   font-size: 1.25rem;
-  line-height: 3em;
+  line-height: 2em;
   cursor: pointer;
 }
 
 .form-app {
   display: flex;
-  padding: 60px 63.25px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 40px;
+  padding: 0 3.33rem;
 }
 
 .form {
-  width: 50%;
   padding: 10px 10px;
   font-family: 'Poppins';
   font-style: normal;
@@ -66,15 +66,12 @@
   color: #000000;
 }
 .img-container {
-  padding: 20px 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  margin: 0;
 }
 .img-container img {
   width: 500px;
   height: 500px;
-  padding-left: 75px;
+  object-fit: contain;
 }
 
 .form-title {
@@ -85,9 +82,6 @@
   line-height: 120px;
 
   /* identical to box height */
-  display: flex;
-  align-items: center;
-  text-align: center;
 
   color: #000000;
 }
@@ -101,25 +95,25 @@
   padding: 20px 40px;
 }
 
-.form-main input, .submitbtn {
+.form-main input,
+.submit-btn {
   margin: 10px 0;
   width: 350px;
   height: 45px;
-  background: #D9D9D9;
+  background: #d9d9d9;
   border-radius: 7px;
   border: none;
   padding-left: 20px;
 }
 
-.submitbtn {
-  background-color: #92E3A9;
+.submit-btn {
+  background-color: #92e3a9;
   padding: 0;
+  font-size: inherit;
   margin-top: 20px;
-  width: 371px;
 }
 
 .form-footer-text {
-  
   display: flex;
   align-items: center;
 }

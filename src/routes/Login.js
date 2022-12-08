@@ -17,7 +17,7 @@ function Login() {
                         <input type="text" name="email"/>
                         <p>Password</p>
                         <input type="password" name="password"/>
-                        <button className="submitbtn">Login</button>
+                        <button className="submit-btn">Login</button>
                     </form>
                     <div className="form-footer">
                         <div className="form-footer-text">

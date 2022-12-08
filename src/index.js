@@ -6,26 +6,22 @@ import Landing from './routes/Landing';
 import Login from './routes/Login';
 import SignUp from './routes/SignUp';
 
-import {
-  createBrowserRouter,
-  RouterProvider,
-  Route
-} from "react-router-dom"
+import { createBrowserRouter, RouterProvider, Route } from 'react-router-dom';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <Landing />
+    element: <Landing />,
   },
   {
     path: '/login',
-    element: <Login />
+    element: <Login />,
   },
   {
     path: '/signup',
-    element: <SignUp />
-  }
-])
+    element: <SignUp />,
+  },
+]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -33,5 +29,3 @@ root.render(
     <RouterProvider router={router} />
   </React.StrictMode>
 );
-
-
