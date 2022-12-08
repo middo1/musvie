@@ -9,6 +9,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 import { createBrowserRouter, RouterProvider, Route } from 'react-router-dom';
+import Main from './routes/Main';
 
 const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
     path: '/signup',
     element: <SignUp />,
   },
+  {
+    path: '/main',
+    element: <Main />
+  }
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -19,7 +19,7 @@ function SignUp(){
                         <input type="password" name="password"/>
                         <p>Confirm Password</p>
                         <input type="password" name="confirm-password"/><br />
-                        <button className="submitbtn">Create Account</button>
+                        <button className="submit-btn">Create Account</button>
                     </form>
                     <div className="form-footer">
                         <div className="form-footer-text">

@@ -13,11 +13,11 @@ function Login() {
             <label for="email">
               Email
               <input type="text" name="email" id="email" />
-            </label>
+            </label><br />
             <label for="password">
               Password
               <input type="password" name="password" id="password" />
-            </label>
+            </label><br />
             <button className="submit-btn">Login</button>
           </form>
           <div className="form-footer">
