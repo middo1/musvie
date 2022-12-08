@@ -5,6 +5,8 @@ import App from './App';
 import Landing from './routes/Landing';
 import Login from './routes/Login';
 import SignUp from './routes/SignUp';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 import { createBrowserRouter, RouterProvider, Route } from 'react-router-dom';
 
