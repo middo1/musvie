@@ -9,7 +9,7 @@ function Main() {
             </div>
             <div className="main-btn-container">
                 <div className="main-btn">I want movies!</div>
-                <div className="main-btn">Platlist switch up!</div>
+                <div className="main-btn">Playlist switch up!</div>
             </div>
         </div>
     )

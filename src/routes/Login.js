@@ -2,6 +2,7 @@ import logo1 from '../logo-images/google.png';
 import logo2 from '../logo-images/apple.png';
 import logo3 from '../logo-images/Vector.png';
 import logo4 from '../logo-images/Vector-1.png';
+import Carousel from '../Carousel';
 
 function Login() {
   return (
@@ -13,11 +14,13 @@ function Login() {
             <label for="email">
               Email
               <input type="text" name="email" id="email" />
-            </label><br />
+            </label>
+            <br />
             <label for="password">
               Password
               <input type="password" name="password" id="password" />
-            </label><br />
+            </label>
+            <br />
             <button className="submit-btn">Login</button>
           </form>
           <div className="form-footer">
@@ -35,22 +38,9 @@ function Login() {
           </div>
         </div>
       </div>
-      {/* <div className="img-container">
-        <img alt="bgimage" src={bgimg} />
-          </div> */}
-      <div
-        id="carouselExampleSlidesOnly"
-        class="carousel slide"
-        data-ride="carousel"
-      >
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="../bro.png" class="d-block w-100" alt="music" />
-          </div>
-          <div class="carousel-item">
-            <img src="../movie.png" class="d-block w-100" alt="movie" />
-          </div>
-        </div>
+
+      <div className="img-container">
+        <Carousel></Carousel>
       </div>
     </div>
   );
