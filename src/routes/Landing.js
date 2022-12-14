@@ -1,3 +1,6 @@
+import navigateToSignup from "../navigation";
+
+
 function Landing() {
   return (
     <div className="landing-app">
@@ -9,7 +12,7 @@ function Landing() {
           get started! Woohoo!!
         </p>
       </div>
-      <div className="landing-btn">Get started</div>
+      <div className="landing-btn" onClick={navigateToSignup()}>Get started</div>
     </div>
   );
 }
